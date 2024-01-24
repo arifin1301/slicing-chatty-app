@@ -14,8 +14,8 @@ TextStyle time = TextStyle(
 
 TextStyle title = TextStyle(
   color: blueDark,
-  fontWeight: FontWeight.w400,
-  fontSize: 16,
+  fontWeight: FontWeight.w500,
+  fontSize: 20,
 );
 
 TextStyle ProfileName = TextStyle(
