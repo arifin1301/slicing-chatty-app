@@ -4,15 +4,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-          child: Padding(
-        padding: const EdgeInsets.symmetric(
-          horizontal: 30,
-        ),
-        child: Column(children: [
-          Text("Home Page"),
-        ]),
-      )),
+      body: Image.asset("assets/images/profile_pic.png"),
     );
   }
 }
